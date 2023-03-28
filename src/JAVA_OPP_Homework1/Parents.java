@@ -1,8 +1,8 @@
 package JAVA_OPP_Homework1;
 
 public class Parents {
-    private Status status;
-    private Person person;
+    private final Status status;
+    private final Person person;
 
     public Parents(Person person, Status status) {
         this.person = person;
