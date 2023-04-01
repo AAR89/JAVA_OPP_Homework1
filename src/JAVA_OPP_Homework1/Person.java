@@ -1,15 +1,13 @@
 package JAVA_OPP_Homework1;
 
 public class Person {
-    private final String name;
-    private final Integer age;
-    private String status;
+    private String name;
+    private Integer age;
 
     public Person(String name, Integer age) {
         this.name = name;
         this.age = age;
     }
-
 
     public String getName() {
         return name;
@@ -17,10 +15,6 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                ", status='" + status + '\'' +
-                '}';
+        return name;
     }
 }
